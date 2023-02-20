@@ -1,0 +1,70 @@
+Fectorial
+
+<html>
+<body>
+<script>
+var fect=1,i;
+var num=prompt(num);
+for(i=1; i<=num;i++)
+{
+    fect = fect*i;
+}
+document.write(fect);
+</script>
+</body>
+</html>
+
+
+armstrong number
+<html>
+<body>
+<script>
+var rev,temp,sum=0;
+var num=prompt("enter number");
+ temp = num;
+while(num>0)
+{
+    rev = num%10;
+    sum= (rev*rev*rev)+sum;
+    num = parseInt(num/10);
+    
+}
+if (sum==temp)
+{
+document.write("armstrong");
+}
+else
+{
+document.write("not armstrong");
+}
+</script>
+</body>
+</html>
+
+
+palindrome
+
+<html>
+<body>
+<script>
+var rev,temp,sum=0;
+var num=prompt("enter number");
+ temp = num;
+while(num>0)
+{
+    rev= num%10;
+    sum=(sum*10)+rev;
+    num = parseInt(num/10);
+}
+if (sum==temp)
+{
+document.write("palidrome");
+}
+else
+{
+document.write("not palidrome");
+}
+</script>
+</body>
+</html>
+
